@@ -90,7 +90,7 @@
                               ]
                             },
                               "/POST",
-                            "/weijers/pizza/*"
+                            "/*"
                           ]
                         ]
                       },
@@ -121,7 +121,7 @@
                               ]
                             },
                               "/POST",
-                            "/weijers/pizza"
+                            ""
                           ]
                         ]
                       }
@@ -156,7 +156,7 @@
                               ]
                             },
                               "/GET",
-                            "/weijers/pizza/*"
+                            "/*"
                           ]
                         ]
                       },
@@ -187,7 +187,7 @@
                               ]
                             },
                               "/GET",
-                            "/weijers/pizza"
+                            ""
                           ]
                         ]
                       }
@@ -222,7 +222,7 @@
                               ]
                             },
                               "/PUT",
-                            "/weijers/pizza/*"
+                            "/*"
                           ]
                         ]
                       },
@@ -253,7 +253,7 @@
                               ]
                             },
                               "/PUT",
-                            "/weijers/pizza"
+                            ""
                           ]
                         ]
                       }
@@ -288,7 +288,7 @@
                               ]
                             },
                               "/PATCH",
-                            "/weijers/pizza/*"
+                            "/*"
                           ]
                         ]
                       },
@@ -319,7 +319,7 @@
                               ]
                             },
                               "/PATCH",
-                            "/weijers/pizza"
+                            ""
                           ]
                         ]
                       }
@@ -354,7 +354,7 @@
                               ]
                             },
                               "/DELETE",
-                            "/weijers/pizza/*"
+                            "/*"
                           ]
                         ]
                       },
@@ -385,7 +385,7 @@
                               ]
                             },
                               "/DELETE",
-                            "/weijers/pizza"
+                            ""
                           ]
                         ]
                       }
@@ -739,7 +739,7 @@
         
         
         
-      "DeploymentAPIGWweijerspizza": {
+      "DeploymentAPIGWweijerspizza8ace57a7": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",

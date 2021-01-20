@@ -4,5 +4,33 @@
     <amplify-sign-out></amplify-sign-out>
   </div>
 
-  <!-- other code that Angular created for us -->
+  <div class="form-body">
+    <form autocomplete="off" [formGroup]="createForm"
+          (ngSubmit)="onSubmit(createForm.value)">
+      <div>
+        <label>Name: </label>
+        <input type="text" formControlName="name" autocomplete="off">
+      </div>
+      <div>
+        <label>Description: </label>
+        <input type="text" formControlName="description" autocomplete="off">
+      </div>
+      <div>
+        <label>City: </label>
+        <input type="text" formControlName="city" autocomplete="off">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div *ngFor="let pizza of pizzas">
+    <div>Id: {{pizza.id}} </div>
+    <div>Name: {{ pizza.name }}</div>
+    <div>Description: {{ pizza.description }}</div>
+    <div>City: {{ pizza.city }}</div>
+    <br/>
+  </div>
+
 </amplify-authenticator>
+
+<router-outlet></router-outlet>
