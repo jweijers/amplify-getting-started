@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/weijers/pizza",
+            "lambdaFunction": "weijerspizzafunction",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/weijers/pizza"
+        }
+    ],
+    "resourceName": "weijerspizza",
+    "apiName": "weijerspizza",
+    "functionArns": [
+        {
+            "lambdaFunction": "weijerspizzafunction"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyweijers-jeroendev-180219-authRole",
+        "unAuthRoleName": "amplify-amplifyweijers-jeroendev-180219-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "weijerspizzafunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
