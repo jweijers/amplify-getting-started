@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifyweijers-jeroendev-180219",
       "StackId": "arn:aws:cloudformation:eu-west-1:380162700888:stack/amplify-amplifyweijers-jeroendev-180219/43da6480-5b41-11eb-a7aa-0a6de334f2a9",
       "AmplifyAppId": "d3muefyxwohaiu"
+    },
+    "categories": {
+      "auth": {
+        "amplifyweijers64216c8c": {}
+      }
     }
   }
 }
