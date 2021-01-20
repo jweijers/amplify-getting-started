@@ -1,0 +1,15 @@
+{
+  "jeroendev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyweijers-jeroendev-180219-authRole",
+      "UnauthRoleArn": "arn:aws:iam::380162700888:role/amplify-amplifyweijers-jeroendev-180219-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::380162700888:role/amplify-amplifyweijers-jeroendev-180219-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-amplifyweijers-jeroendev-180219-deployment",
+      "UnauthRoleName": "amplify-amplifyweijers-jeroendev-180219-unauthRole",
+      "StackName": "amplify-amplifyweijers-jeroendev-180219",
+      "StackId": "arn:aws:cloudformation:eu-west-1:380162700888:stack/amplify-amplifyweijers-jeroendev-180219/43da6480-5b41-11eb-a7aa-0a6de334f2a9",
+      "AmplifyAppId": "d3muefyxwohaiu"
+    }
+  }
+}
